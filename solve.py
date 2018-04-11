@@ -9,7 +9,8 @@ from time import sleep
 
 # Establish a connection
 serial_device = establish_connection(device="/dev/ttyUSB0")
-sleep(1)
+sleep(0.5)
+
 # Read and print until no further input
 while True:
     line = readln(serial_device)
