@@ -10,3 +10,5 @@ To install pyserial run:
 sudo apt-get install python-pip
 pip install pyserial
 ```
+
+Next, connect your device and determine the name of the connected serial device. Edit the `solve.py` script accordingly and hack away! 
