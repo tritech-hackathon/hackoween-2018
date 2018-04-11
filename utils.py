@@ -2,8 +2,11 @@
 # With love from Alex.
 # Modified a bit by Jabbe.
 
-# Requires pyserial installed.
-# To install run: pip install pyserial
+# Requires pyserial and requests installed.
+# To install run:
+# pip3 install pyserial
+# pip3 install requests
+
 import serial
 import sys
 import requests
