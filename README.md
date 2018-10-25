@@ -13,4 +13,6 @@ pip3 install requests
 
 ```
 
-Next, connect your device and determine the name of the connected serial device. Edit the `solve.py` script accordingly and hack away! 
+Next, connect your device and determine the name of the connected serial device. Edit the `solve.py` script accordingly (e.g. "COM15" for windows or "/dev/ttyUSB0" for Linux)
+
+Hack away! 

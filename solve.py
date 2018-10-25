@@ -8,7 +8,8 @@ from utils import establish_connection, readln, writeln, user_input
 from time import sleep
 
 # Establish a connection
-serial_device = establish_connection(device="/dev/ttyUSB0")
+# Edit name of device                        v v v   
+serial_device = establish_connection(device="COM15")
 sleep(0.5)
 
 # Read and print until no further input
@@ -24,6 +25,7 @@ writeln(serial_device, user_input())
 while True:
     line = readln(serial_device)
     if not line:
-        break
+        writeln(serial_device, user_input())
+        #break
 
 print("Done")
