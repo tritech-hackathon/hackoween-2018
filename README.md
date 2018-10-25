@@ -1,4 +1,4 @@
-# Studs 2018 Tritech hackathon
+# Tritech Hackoween 2018 
 This repository contains two files, `utils.py` containing a few necessary api:s and `solve.py` which is a good starting point for the challenge.
 
 ## Getting started
