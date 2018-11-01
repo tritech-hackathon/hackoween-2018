@@ -28,6 +28,7 @@ writeln(serial_device, user_input())
 while True:
     line = readln(serial_device)
     if not line:
-        break
+        writeln(serial_device, user_input())
+        #break
 
 print("Done")
