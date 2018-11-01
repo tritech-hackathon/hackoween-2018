@@ -2,6 +2,7 @@
 
 #### WiFi
 SSID: 3TGuest
+
 Pass: SkrivStora3SS
 
 
@@ -15,8 +16,9 @@ To get started you need to download this repository and have python3 installed o
 If you don't already have python3 and pip3 installed you need to install it. 
 
 
-#### Windows
-To to install python3 go to: <https://www.python.org/> and download python 3.X.X under the `Download` tab.
+
+### Windows
+To to install python3 on Windows go to: <https://www.python.org/> and download python 3.X.X under the `Download` tab.
 This will automatically install pip3.
 
 Make sure to check the following boxes:
@@ -29,7 +31,7 @@ pip3 install requests
 ```
 
 
-#### Linux
+### Linux
 ``` bash
 # Or similar depending on your systems package manager
 sudo apt-get install python3
@@ -40,7 +42,7 @@ pip3 install requests
 ```
 
 
-#### macOS
+### macOS
 ``` bash
 # If you don't have brew installed, install it by running:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -67,8 +69,8 @@ ls -l /dev/tty*
 
 For Windows
 ````bash
-Method 1: Go to "Device manager > Ports (COM & LPT)"
-Method 2: Type `mode` in the command promt
+# Method 1: Go to "Device manager > Ports (COM & LPT)"
+# Method 2: Type "mode" in the command promt
 ```
 
 You should be set! Now hack away! 
