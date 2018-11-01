@@ -12,7 +12,7 @@ import sys
 import requests
 
 # Frequency used when communicating with serial device
-DEVICE = "/dev/ttyUSB0"
+DEVICE = "/dev/ttyACM0"
 # Frequency used when communicating with serial device
 BAUDRATE = 74880
 # Timeout for serial connection

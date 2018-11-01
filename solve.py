@@ -8,8 +8,12 @@ from utils import establish_connection, readln, writeln, user_input
 from time import sleep
 
 # Establish a connection
-serial_device = establish_connection(device="/dev/ttyUSB0")
+# Edit name of device                        v v v   
+serial_device = establish_connection(device="COM15")
 sleep(0.5)
+
+# Reset the device to start from the beginning
+writeln(serial_device, 'reset')
 
 # Read and print until no further input
 while True:
