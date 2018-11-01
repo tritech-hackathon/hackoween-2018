@@ -68,7 +68,7 @@ ls -l /dev/tty*
 ```
 
 For Windows
-````bash
+```bash
 # Method 1: Go to "Device manager > Ports (COM & LPT)"
 # Method 2: Type "mode" in the command promt
 ```
